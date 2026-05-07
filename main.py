@@ -1,10 +1,9 @@
-Python 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
->>> 
-= RESTART: C:/Users/NIHARA P/OneDrive/Desktop/project_calac/simple calculator/main.py
-Enter the digit2
-Enter the digit3
-Addition : 5
-subtraction : -1
-multiplication : 6
-division: 0.6666666666666666
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Addition =", a + b)
+print("Subtraction =", a - b)
+print("Multiplication =", a * b)
+print("Division =", a / b)
